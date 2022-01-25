@@ -4,12 +4,12 @@
     "description": "first frontend task stc",
     "author": "Ansh",
     "scripts": {
-      "build": "parcel build index.html",
-      "dev": "parcel index.html --open --port 8000",
-      "start": "npm run build && npm run dev"
+        "build": "parcel build index.html",
+        "dev": "parcel index.html --open --port 8000",
+        "start": "npm run build && npm run dev"
     },
     "devDependencies": {
-      "parcel-bundler": "^1.12.4",
-      "sass": "^1.48.0"
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.48.0"
     }
-  }
+}
