@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>STC frontend task 1 ansh goenka</title>
-    <link rel="stylesheet" href="./css/index.scss">
+    <link rel="stylesheet" href="css/index.scss">
+    <script>
+        function puc(name)
+        {
+            var name1=name.toLocaleUpperCase();
+            alert (name1 + " The Page is under construction. Please try later :(");
+        }
+    </script>
 </head>
 <body>
     <div id="main-content">
@@ -14,7 +21,10 @@
                 <h2>Home</h2>
             </div>
             <div id="button">
-                <h2>Random Recipe</h2>
+                <form id="f1">
+                    <input type="text" name="t1">
+                </form>
+                <h2 onclick="puc(f1.t1.value)">Random Recipe</h2>
                 <h2>Best Recipe</h2>
             </div>
         </div>
